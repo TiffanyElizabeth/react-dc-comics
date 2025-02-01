@@ -10,14 +10,14 @@ body {
 
 .flex-container {
   display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 /* ---------------
   HEADER
 --------------- */
 .header-container {
-  justify-content: space-between;
-  align-items: center;
   background-color: white;
   margin-bottom: 6px;
 }
@@ -43,6 +43,7 @@ header img {
   color: black;
   padding: 48px 0px;
   border-bottom: 6px solid white;
+  transition: 0.3s;
 }
 
 .main-nav ul li a:hover {
@@ -88,6 +89,7 @@ h1 {
   font-weight: 300;
   align-items: center;
   gap: 10px;
+  transition: 0.3s;
 }
 
 .footer-top-nav ul li a:hover {
@@ -143,6 +145,7 @@ h1 {
   line-height: 1.5;
   font-size: 12px;
   font-weight: 100;
+  transition: 0.3s;
 }
 
 .footer-mid-col-nav-col ul li a:hover {
@@ -160,4 +163,46 @@ h1 {
 
 .footer-bottom {
   background-color: #303030;
+}
+
+.footer-bottom button {
+  background-color: #303030;
+  color: white;
+  padding: 12px;
+  border: 2px solid #0c7cec;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.footer-bottom button:hover {
+  transform: scale(1.5);
+  font-weight: 700;
+}
+
+.footer-bottom-nav {
+  margin: 32px 0px;
+}
+
+.footer-bottom-nav ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 22px;
+  margin: 0px;
+}
+
+.footer-bottom-nav ul li h4 {
+  color: #0c7cec;
+  padding-right: 10px;
+}
+
+.footer-bottom-nav ul li a img {
+  height: 36px;
+  width: auto;
+  transition: 0.3s;
+}
+
+.footer-bottom-nav ul li a img:hover {
+  transform: scale(1.5);
 }

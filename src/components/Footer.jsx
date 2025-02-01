@@ -142,7 +142,33 @@ export default function Footer() {
                 </div>
             </section>
             <section className="footer-bottom">
-                <div className="container">hello</div>
+                <div className="container flex-container">
+                    <div>
+                        <button>SIGN-UP NOW!</button>
+                    </div>
+                    <div className="footer-bottom-nav">
+                        <ul>
+                            <li>
+                                <h4>FOLLOW US</h4>
+                            </li>
+                            <li>
+                                <a href="#"><img src="../img/footer-facebook.png"></img></a>
+                            </li>
+                            <li>
+                                <a href="#"><img src="../img/footer-twitter.png"></img></a>
+                            </li>
+                            <li>
+                                <a href="#"><img src="../img/footer-youtube.png"></img></a>
+                            </li>
+                            <li>
+                                <a href="#"><img src="../img/footer-pinterest.png"></img></a>
+                            </li>
+                            <li>
+                                <a href="#"><img src="../img/footer-periscope.png"></img></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
             </section>
         </footer>
     )
