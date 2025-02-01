@@ -1,7 +1,10 @@
+body {
+  margin: 0px;
+}
+
 .container {
   max-width: 1284px;
   margin: 0 auto;
-  background-color: lavender;
   font-family: "Open Sans", serif;
 }
 
@@ -9,10 +12,14 @@
   display: flex;
 }
 
+/* ---------------
+  HEADER
+--------------- */
 .header-container {
   justify-content: space-between;
   align-items: center;
   background-color: white;
+  margin-bottom: 6px;
 }
 
 header img {
@@ -41,4 +48,17 @@ header img {
 .main-nav ul li a:hover {
   color: #0c7cec;
   border-bottom: 6px solid #0c7cec;
+}
+
+/* ---------------
+  MAIN
+--------------- */
+main {
+  background-color: #1C1C1C;
+  padding: 50px 0px;
+}
+
+h1 {
+  color: white;
+  font-weight: 600;
 }
