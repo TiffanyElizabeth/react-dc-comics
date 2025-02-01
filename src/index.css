@@ -62,3 +62,47 @@ h1 {
   color: white;
   font-weight: 600;
 }
+
+/* ---------------
+  FOOTER
+--------------- */
+.footer-top {
+  background-color: #0c7cec;
+}
+
+.footer-top-nav ul {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0px;
+  padding: 48px 30px;
+  justify-content: space-between;
+}
+
+.footer-top-nav ul li a {
+  display: flex;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: white;
+  font-size: 14px;
+  font-weight: 300;
+  align-items: center;
+  gap: 10px;
+}
+
+.footer-top-nav ul li a:hover {
+  font-weight: 700;
+}
+
+.footer-top-nav-img {
+  max-height: 58px;
+}
+
+.footer-mid {
+  background-image: url("../img/footer-bg.jpg");
+  color: white;
+}
+
+.footer-bottom {
+  background-color: #303030;
+}
