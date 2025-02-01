@@ -40,7 +40,106 @@ export default function Footer() {
                 </div>
             </section>
             <section className="footer-mid">
-                <div className="container">hello</div>
+                <div className="container">
+                    <div className="footer-mid-row">
+                        <div className="footer-mid-col">
+                            <div className="footer-mid-col-nav-col">
+                                <h3>DC Comics</h3>
+                                <ul>
+                                    <li>
+                                        <a href="#">Characters</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Comics</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Movies</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">TV</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Games</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Videos</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">News</a>
+                                    </li>
+                                </ul>
+                                <h3>shop</h3>
+                                <ul>
+                                    <li>
+                                        <a href="#">Characters</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Shop DC Collectibles</a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div className="footer-mid-col-nav-col">
+                                <h3>DC</h3>
+                                <ul>
+                                    <li>
+                                        <a href="#">Characters</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Privacy policy (New)</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Movies</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">TV</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Games</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Videos</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">News</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Characters</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Characters</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Characters</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Characters</a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div className="footer-mid-col-nav-col">
+                                <h3>sites</h3>
+                                <ul>
+                                    <li>
+                                        <a href="#">Characters</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Comics</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Movies</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">TV</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Games</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div className="footer-mid-col"></div>
+                    </div>
+                </div>
             </section>
             <section className="footer-bottom">
                 <div className="container">hello</div>
