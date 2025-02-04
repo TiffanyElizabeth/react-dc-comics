@@ -8,7 +8,7 @@ export default function Header() {
                 <nav className="main-nav">
                     <ul>
                         {links.map((link) => (
-                            <li className="line">
+                            <li key={link.id} className="line">
                                 <a href={link.url}>{link.text}</a>
                             </li>
                         ))}
