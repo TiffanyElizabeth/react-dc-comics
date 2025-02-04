@@ -82,37 +82,37 @@ export default function Footer() {
                                 <h3>DC</h3>
                                 <ul>
                                     <li>
-                                        <a href="#">Characters</a>
+                                        <a href="#">Terms of Use</a>
                                     </li>
                                     <li>
                                         <a href="#">Privacy policy (New)</a>
                                     </li>
                                     <li>
-                                        <a href="#">Movies</a>
+                                        <a href="#">Ad Choices</a>
                                     </li>
                                     <li>
-                                        <a href="#">TV</a>
+                                        <a href="#">Advertising</a>
                                     </li>
                                     <li>
-                                        <a href="#">Games</a>
+                                        <a href="#">Jobs</a>
                                     </li>
                                     <li>
-                                        <a href="#">Videos</a>
+                                        <a href="#">Subscriptions</a>
                                     </li>
                                     <li>
-                                        <a href="#">News</a>
+                                        <a href="#">Talent Workshops</a>
                                     </li>
                                     <li>
-                                        <a href="#">Characters</a>
+                                        <a href="#">CPSC Certificates</a>
                                     </li>
                                     <li>
-                                        <a href="#">Characters</a>
+                                        <a href="#">Ratings</a>
                                     </li>
                                     <li>
-                                        <a href="#">Characters</a>
+                                        <a href="#">Shop Help</a>
                                     </li>
                                     <li>
-                                        <a href="#">Characters</a>
+                                        <a href="#">Contact Us</a>
                                     </li>
                                 </ul>
                             </div>
@@ -120,19 +120,19 @@ export default function Footer() {
                                 <h3>sites</h3>
                                 <ul>
                                     <li>
-                                        <a href="#">Characters</a>
+                                        <a href="#">DC</a>
                                     </li>
                                     <li>
-                                        <a href="#">Comics</a>
+                                        <a href="#">MAD Magazine</a>
                                     </li>
                                     <li>
-                                        <a href="#">Movies</a>
+                                        <a href="#">DC Kids</a>
                                     </li>
                                     <li>
-                                        <a href="#">TV</a>
+                                        <a href="#">DC Universe</a>
                                     </li>
                                     <li>
-                                        <a href="#">Games</a>
+                                        <a href="#">DC Power Visa</a>
                                     </li>
                                 </ul>
                             </div>

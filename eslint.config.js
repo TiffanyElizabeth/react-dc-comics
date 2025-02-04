@@ -33,6 +33,7 @@ export default [
         'warn',
         { allowConstantExport: true },
       ],
+      "react/prop-types": "off", // 1:30 lezione di mercoledi 29 gennaio
     },
   },
 ]

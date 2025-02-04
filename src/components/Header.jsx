@@ -1,11 +1,18 @@
+import links from "../data/headerMenu";
+
 export default function Header() {
     return (
         <header className="container">
             <div className="flex-container header-container">
-                <img src="../img/dc-logo.png" alt="dc logo" />
+                <a href="#"><img src="../img/dc-logo.png" alt="dc logo" /></a>
                 <nav className="main-nav">
                     <ul>
-                        <li className="line">
+                        {links.map((link) => (
+                            <li className="line">
+                                <a href={link.url}>{link.text}</a>
+                            </li>
+                        ))}
+                        {/*<li className="line">
                             <a href="#">characters</a>
                         </li>
                         <li className="line">
@@ -34,7 +41,7 @@ export default function Header() {
                         </li>
                         <li className="line">
                             <a href="#">shop</a>
-                        </li>
+                        </li>*/}
                     </ul>
                 </nav>
             </div>
